@@ -206,7 +206,7 @@ export const Route =
 
         {
           rel: "icon",
-          href: "/favicon.ico",
+          href: "/favicon.png",
           type: "image/x-icon",
         },
       ],
