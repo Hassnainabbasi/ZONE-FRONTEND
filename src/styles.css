@@ -1,0 +1,313 @@
+@import "tailwindcss";
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * NEXUS ARENA design system — futuristic dark esports theme.
+ * All colors are oklch tokens. Never hardcode colors in components.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --font-display: "Orbitron", "Rajdhani", sans-serif;
+  --font-sans: "Outfit", "Inter", sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-neon-cyan: var(--neon-cyan);
+  --color-neon-purple: var(--neon-purple);
+  --color-neon-green: var(--neon-green);
+  --color-neon-red: var(--neon-red);
+  --color-gold: var(--gold);
+  --color-silver: var(--silver);
+  --color-bronze: var(--bronze);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* #0B0E14 */
+  --background: oklch(0.163 0.014 264);
+  --foreground: oklch(0.965 0.006 250);
+  /* #121824 */
+  --surface: oklch(0.215 0.021 265);
+  --surface-2: oklch(0.262 0.026 266);
+
+  --card: oklch(0.215 0.021 265);
+  --card-foreground: oklch(0.965 0.006 250);
+  --popover: oklch(0.2 0.02 265);
+  --popover-foreground: oklch(0.965 0.006 250);
+
+  /* Cyber Cyan #00F0FF */
+  --neon-cyan: oklch(0.872 0.148 198);
+  /* Electric Purple #7000FF */
+  --neon-purple: oklch(0.512 0.297 291);
+  /* Neon Green #00FF66 */
+  --neon-green: oklch(0.874 0.256 148);
+  --neon-red: oklch(0.65 0.24 22);
+  --gold: oklch(0.83 0.16 88);
+  --silver: oklch(0.83 0.01 250);
+  --bronze: oklch(0.66 0.11 52);
+
+  --primary: oklch(0.872 0.148 198);
+  --primary-foreground: oklch(0.163 0.014 264);
+  --secondary: oklch(0.512 0.297 291);
+  --secondary-foreground: oklch(0.98 0.005 250);
+  --muted: oklch(0.262 0.026 266);
+  --muted-foreground: oklch(0.72 0.024 258);
+  --accent: oklch(0.512 0.297 291);
+  --accent-foreground: oklch(0.98 0.005 250);
+  --destructive: oklch(0.65 0.24 22);
+  --destructive-foreground: oklch(0.98 0.005 250);
+
+  --border: oklch(0.98 0.02 210 / 12%);
+  --input: oklch(0.98 0.02 210 / 16%);
+  --ring: oklch(0.872 0.148 198);
+
+  --chart-1: oklch(0.872 0.148 198);
+  --chart-2: oklch(0.512 0.297 291);
+  --chart-3: oklch(0.874 0.256 148);
+  --chart-4: oklch(0.83 0.16 88);
+  --chart-5: oklch(0.65 0.24 22);
+
+  --sidebar: oklch(0.215 0.021 265);
+  --sidebar-foreground: oklch(0.965 0.006 250);
+  --sidebar-primary: oklch(0.872 0.148 198);
+  --sidebar-primary-foreground: oklch(0.163 0.014 264);
+  --sidebar-accent: oklch(0.262 0.026 266);
+  --sidebar-accent-foreground: oklch(0.965 0.006 250);
+  --sidebar-border: oklch(0.98 0.02 210 / 12%);
+  --sidebar-ring: oklch(0.872 0.148 198);
+
+  /* Signature gradients & glows */
+  --gradient-cyber: linear-gradient(
+    120deg,
+    var(--neon-cyan) 0%,
+    var(--neon-purple) 55%,
+    var(--neon-green) 100%
+  );
+  --gradient-hero: radial-gradient(
+      70% 60% at 15% 10%,
+      color-mix(in oklab, var(--neon-purple) 38%, transparent) 0%,
+      transparent 70%
+    ),
+    radial-gradient(
+      60% 60% at 85% 20%,
+      color-mix(in oklab, var(--neon-cyan) 26%, transparent) 0%,
+      transparent 70%
+    ),
+    radial-gradient(
+      70% 70% at 50% 110%,
+      color-mix(in oklab, var(--neon-green) 16%, transparent) 0%,
+      transparent 70%
+    );
+  --gradient-glass: linear-gradient(
+    145deg,
+    oklch(1 0 0 / 8%) 0%,
+    oklch(1 0 0 / 2%) 45%,
+    oklch(1 0 0 / 5%) 100%
+  );
+  --shadow-neon: 0 0 0 1px color-mix(in oklab, var(--neon-cyan) 35%, transparent),
+    0 8px 40px -8px color-mix(in oklab, var(--neon-cyan) 55%, transparent);
+  --shadow-neon-purple: 0 0 0 1px color-mix(in oklab, var(--neon-purple) 45%, transparent),
+    0 10px 50px -10px color-mix(in oklab, var(--neon-purple) 70%, transparent);
+  --shadow-elevated: 0 24px 60px -20px oklch(0 0 0 / 75%);
+  --transition-smooth: 400ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.02em;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--neon-cyan) 35%, transparent);
+  }
+}
+
+/* ---------- Utilities ---------- */
+
+@utility glass {
+  background-image: var(--gradient-glass);
+  background-color: color-mix(in oklab, var(--surface) 55%, transparent);
+  backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid var(--border);
+  transition: box-shadow var(--transition-smooth), border-color var(--transition-smooth),
+    transform var(--transition-smooth);
+
+  &:hover {
+    border-color: color-mix(in oklab, var(--neon-cyan) 45%, transparent);
+    box-shadow: var(--shadow-neon);
+  }
+}
+
+@utility glass-static {
+  background-image: var(--gradient-glass);
+  background-color: color-mix(in oklab, var(--surface) 55%, transparent);
+  backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid var(--border);
+}
+
+@utility text-gradient {
+  background-image: var(--gradient-cyber);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@utility hero-glow {
+  background-image: var(--gradient-hero);
+}
+
+@utility cyber-grid {
+  background-image: linear-gradient(
+      to right,
+      color-mix(in oklab, var(--neon-cyan) 12%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in oklab, var(--neon-cyan) 12%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 56px 56px;
+  mask-image: radial-gradient(70% 70% at 50% 40%, black 0%, transparent 100%);
+}
+
+@utility glow-cyan {
+  box-shadow: var(--shadow-neon);
+}
+
+@utility glow-purple {
+  box-shadow: var(--shadow-neon-purple);
+}
+
+@utility neon-divider {
+  height: 1px;
+  background-image: var(--gradient-cyber);
+  opacity: 0.5;
+}
+
+@utility scan-line {
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      100deg,
+      transparent 20%,
+      color-mix(in oklab, var(--neon-cyan) 22%, transparent) 50%,
+      transparent 80%
+    );
+    transform: translateX(-100%);
+    transition: transform 900ms cubic-bezier(0.22, 1, 0.36, 1);
+    pointer-events: none;
+  }
+
+  &:hover::after {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.35);
+  }
+}
+
+@utility live-dot {
+  animation: pulse-glow 1.6s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@utility float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+@keyframes grid-drift {
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  100% {
+    background-position: 56px 56px, 56px 56px;
+  }
+}
+
+@utility grid-drift {
+  animation: grid-drift 12s linear infinite;
+}
