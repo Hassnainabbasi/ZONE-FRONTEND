@@ -338,7 +338,7 @@ export function Membership() {
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
 
         <SectionHeading
-          eyebrow="Nexus Rewards"
+          eyebrow="CX Rewards"
           title={
             <>
               Choose Your{" "}
@@ -348,7 +348,7 @@ export function Membership() {
               </span>
             </>
           }
-          subtitle="Submit a membership request. Nexus Arena will confirm payment and activate your selected plan."
+          subtitle="Submit a membership request. Cyber Xtream will confirm payment and activate your selected plan."
         />
 
         {/* STATUS */}

@@ -70,7 +70,7 @@ function SettingsPage() {
     setZoneName,
   ] =
     useState(
-      "Nexus Arena",
+      "Cyber Xtream",
     );
 
   const [
@@ -687,7 +687,7 @@ function SettingsPage() {
           </div>
 
           <p className="mt-3 text-xs leading-5 text-muted-foreground">
-            Create another administrator account. This user will have access to the Nexus Arena admin panel.
+            Create another administrator account. This user will have access to the Cyber Xtream admin panel.
           </p>
 
           <div className="mt-5 grid gap-4">

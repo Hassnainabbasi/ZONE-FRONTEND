@@ -13,7 +13,7 @@ export function Footer() {
                 <Gamepad2 className="size-5" />
               </span>
               <span className="font-display text-sm font-bold tracking-[0.2em] uppercase">
-                Nexus<span className="text-neon-cyan">Arena</span>
+                Cyber<span className="text-neon-cyan">Xtream</span>
               </span>
             </div>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">
@@ -79,7 +79,7 @@ export function Footer() {
         </Reveal>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row">
-          <p>© 2026 Nexus Arena. All rights reserved.</p>
+          <p>© 2026 Cyber Xtream. All rights reserved.</p>
           <p className="font-display tracking-[0.2em] uppercase">Game On</p>
         </div>
       </div>

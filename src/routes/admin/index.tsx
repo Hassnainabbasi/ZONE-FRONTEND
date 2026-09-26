@@ -69,7 +69,7 @@ import {
 } from "@/services/systemApi";
 
 const title =
-  "Systems & Live Monitor | Nexus Arena Admin";
+  "Systems & Live Monitor | Cyber Xtream Admin";
 
 export const Route =
   createFileRoute(

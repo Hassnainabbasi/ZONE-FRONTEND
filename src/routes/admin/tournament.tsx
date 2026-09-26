@@ -90,7 +90,7 @@ import {
 ========================================================= */
 
 const title =
-  "Tournaments | Nexus Arena Admin";
+  "Tournaments | Cyber Xtream Admin";
 
 export const Route =
   createFileRoute(
@@ -220,7 +220,7 @@ function openPaymentMessage(
 
     "",
 
-    `Your team "${registration.teamName}" registration for ${tournament?.name || "Nexus Arena Tournament"} has been received.`,
+    `Your team "${registration.teamName}" registration for ${tournament?.name || "Cyber Xtream Tournament"} has been received.`,
 
     "",
 
@@ -241,7 +241,7 @@ function openPaymentMessage(
 
     "Regards,",
 
-    "Nexus Arena",
+    "Cyber Xtream",
   ].join(
     "\n",
   );
@@ -1424,7 +1424,7 @@ function TournamentsPage() {
                   </DialogTitle>
 
                   <DialogDescription>
-                    Create a new public Nexus Arena tournament.
+                    Create a new public Cyber Xtream tournament.
                   </DialogDescription>
 
                 </DialogHeader>

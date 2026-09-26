@@ -273,7 +273,7 @@ function Brand({
         <div className="min-w-0">
 
           <p className="font-display text-sm font-black tracking-widest text-gradient">
-            NEXUS
+            Cyber Xtream
           </p>
 
           <p className="text-[10px] tracking-[0.22em] text-muted-foreground uppercase">
@@ -383,7 +383,7 @@ export function AdminShell({
 
   const adminName =
     user?.name ||
-    "Nexus Admin";
+    "CX Admin";
 
   const adminEmail =
     user?.email ||

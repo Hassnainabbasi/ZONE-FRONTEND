@@ -43,10 +43,10 @@ import {
 } from "@/services/membershipApi";
 
 const title =
-  "My Account | Nexus Arena";
+  "My Account | Cyber Xtream";
 
 const description =
-  "View your Nexus Arena membership, loyalty points, gaming hours and booking history.";
+  "View your Cyber Xtream membership, loyalty points, gaming hours and booking history.";
 
 export const Route =
   createFileRoute(
@@ -244,9 +244,9 @@ function AccountPage() {
             </span>
 
             <span className="font-display text-sm font-bold tracking-[0.2em] uppercase">
-              Nexus
+              Cyber
               <span className="text-neon-cyan">
-                Arena
+               Xtream
               </span>
             </span>
           </Link>
@@ -511,7 +511,7 @@ function AccountPage() {
             <p className="mt-2 text-sm leading-6 text-muted-foreground">
               {membershipStatus ===
               "Active"
-                ? "Your Nexus Arena membership is active."
+                ? "Your Cyber Xtream membership is active."
                 : "Choose a membership plan to unlock rewards and benefits."}
             </p>
 

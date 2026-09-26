@@ -141,29 +141,29 @@ export const Route =
         },
 
         {
-          title: "Nexus Arena",
+          title: "Cyber Xtream",
         },
 
         {
           name: "description",
           content:
-            "Nexus Arena gaming zone, esports lounge, live booking, tournaments and memberships.",
+            "Cyber Xtream gaming zone, esports lounge, live booking, tournaments and memberships.",
         },
 
         {
           name: "author",
-          content: "Nexus Arena",
+          content: "Cyber Xtream",
         },
 
         {
           property: "og:title",
-          content: "Nexus Arena",
+          content: "Cyber Xtream",
         },
 
         {
           property: "og:description",
           content:
-            "Nexus Arena gaming zone, esports lounge, live booking, tournaments and memberships.",
+            "Cyber Xtream gaming zone, esports lounge, live booking, tournaments and memberships.",
         },
 
         {

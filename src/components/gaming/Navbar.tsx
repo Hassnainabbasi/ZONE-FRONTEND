@@ -289,10 +289,10 @@ export function Navbar() {
 
           <span className="font-display text-sm font-bold tracking-[0.2em] uppercase">
 
-            Nexus
+            Cyber
 
             <span className="text-neon-cyan">
-              Arena
+              Xtream
             </span>
 
           </span>

@@ -612,7 +612,7 @@ export const tournamentApi = {
         body:
           JSON.stringify({
             adminNote:
-              "Approved by Nexus Arena admin",
+              "Approved by Cyber Xtream admin",
           }),
       },
     );
@@ -641,7 +641,7 @@ export const tournamentApi = {
         body:
           JSON.stringify({
             adminNote:
-              "Denied by Nexus Arena admin",
+              "Denied by Cyber Xtream admin",
           }),
       },
     );

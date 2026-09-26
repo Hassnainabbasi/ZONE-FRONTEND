@@ -679,7 +679,7 @@ export function Booking() {
               </span>
             </>
           }
-          subtitle="Book normal hourly gaming or select a Nexus Arena day/night package."
+          subtitle="Book normal hourly gaming or select a Cyber Xtream day/night package."
         />
 
         {/* =================================================

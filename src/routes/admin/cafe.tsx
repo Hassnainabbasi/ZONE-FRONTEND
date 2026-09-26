@@ -70,7 +70,7 @@ import {
 } from "@/services/cafeApi";
 
 const title =
-  "Cafe & Food Menu Orders | Nexus Arena Admin";
+  "Cafe & Food Menu Orders | Cyber Xtream Admin";
 
 const description =
   "Create cafe orders, manage menu items, monitor stock and track cafe sales.";

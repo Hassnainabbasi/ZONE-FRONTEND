@@ -41,7 +41,7 @@ import {
 ========================================================= */
 
 const title =
-  "Payments & Revenue Analytics | Nexus Arena Admin";
+  "Payments & Revenue Analytics | Cyber Xtream Admin";
 
 export const Route =
   createFileRoute(
@@ -275,7 +275,7 @@ function RevenuePage() {
         <PageHeader
           eyebrow="Finance"
           title="Payments & Revenue Analytics"
-          subtitle="Track actual payments received across Nexus Arena."
+          subtitle="Track actual payments received across Cyber Xtream."
         />
 
         <div className="glass-static rounded-2xl p-12 text-center text-sm text-muted-foreground">

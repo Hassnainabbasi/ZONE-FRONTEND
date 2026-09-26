@@ -400,7 +400,7 @@ export function Tournaments() {
               </span>
             </>
           }
-          subtitle="Live Nexus Arena tournaments, registrations, prize pools and arena rankings."
+          subtitle="Live Cyber Xtream tournaments, registrations, prize pools and arena rankings."
         />
 
         {loading ? (

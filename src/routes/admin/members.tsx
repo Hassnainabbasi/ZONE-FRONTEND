@@ -82,7 +82,7 @@ import {
 ========================================================= */
 
 const title =
-  "Memberships | Nexus Arena Admin";
+  "Memberships | Cyber Xtream Admin";
 
 const description =
   "Manage membership requests, monthly plans, discounts, points and member rewards.";
@@ -230,7 +230,7 @@ function openPaymentWhatsApp(
 
     "",
 
-    `Your Nexus Arena ${request.tierName} Membership request has been received.`,
+    `Your Cyber Xtream ${request.tierName} Membership request has been received.`,
 
     "",
 
@@ -251,13 +251,13 @@ function openPaymentWhatsApp(
 
     "",
 
-    "After payment verification, your membership will be activated by Nexus Arena admin.",
+    "After payment verification, your membership will be activated by Cyber Xtream admin.",
 
     "",
 
     "Regards,",
 
-    "Nexus Arena",
+    "Cyber Xtream",
   ].join("\n");
 
   window.open(
@@ -806,7 +806,7 @@ function MembersPage() {
         await membershipApi.approveRequest(
           request._id,
 
-          "Membership approved by Nexus Arena admin",
+          "Membership approved by Cyber Xtream admin",
         );
 
       toast.success(
@@ -850,7 +850,7 @@ function MembersPage() {
         await membershipApi.denyRequest(
           request._id,
 
-          "Membership request denied by Nexus Arena admin",
+          "Membership request denied by Cyber Xtream admin",
         );
 
       toast.success(
@@ -1165,7 +1165,7 @@ function MembersPage() {
                   </DialogTitle>
 
                   <DialogDescription>
-                    Add a manual or walk-in Nexus Arena member.
+                    Add a manual or walk-in Cyber Xtream member.
                   </DialogDescription>
 
                 </DialogHeader>

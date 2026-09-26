@@ -35,10 +35,10 @@ import {
 } from "@/context/auth-context";
 
 const title =
-  "Login | Nexus Arena";
+  "Login | Cyber Xtream";
 
 const description =
-  "Login to your Nexus Arena account to access membership, loyalty points, gaming hours and booking history.";
+  "Login to your Cyber Xtream account to access membership, loyalty points, gaming hours and booking history.";
 
 export const Route =
   createFileRoute(
@@ -184,9 +184,9 @@ function LoginPage() {
             </span>
 
             <span className="font-display text-sm font-bold tracking-[0.2em] uppercase">
-              Nexus
+              Cyber
               <span className="text-neon-cyan">
-                Arena
+              Xtream
               </span>
             </span>
           </Link>
@@ -196,7 +196,7 @@ function LoginPage() {
           </div>
 
           <p className="mt-5 font-display text-[10px] tracking-[0.28em] text-primary uppercase">
-            Nexus Arena Account
+            Cyber Xtream Account
           </p>
 
           <h1 className="mt-2 font-display text-3xl font-black">
@@ -305,14 +305,14 @@ function LoginPage() {
 
         <div className="mt-7 border-t border-border pt-6 text-center">
           <p className="text-sm text-muted-foreground">
-            New to Nexus Arena?
+            New to Cyber Xtream?
           </p>
 
           <Link
             to="/signup"
             className="mt-3 inline-flex font-display text-xs font-bold tracking-[0.16em] text-neon-cyan uppercase transition-colors hover:text-primary"
           >
-            Create Nexus Account
+            Create CX Account
           </Link>
         </div>
 
@@ -321,7 +321,7 @@ function LoginPage() {
             to="/"
             className="text-xs text-muted-foreground transition-colors hover:text-foreground"
           >
-            ← Back to Nexus Arena
+            ← Back to Cyber Xtream
           </Link>
         </div>
 

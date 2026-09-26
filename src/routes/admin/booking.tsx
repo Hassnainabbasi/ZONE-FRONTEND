@@ -88,7 +88,7 @@ import {
 */
 
 const title =
-  "Bookings & Reservations | Nexus Arena Admin";
+  "Bookings & Reservations | Cyber Xtream Admin";
 
 const description =
   "Manage bookings, payments, partial payments, confirmations and customer communication.";
