@@ -77,7 +77,7 @@ http://localhost:8081
 ## Backend
 
 ```txt
-http://localhost:5000
+https://zone-backend.vercel.app
 ```
 
 All frontend API services should use:
@@ -85,7 +85,7 @@ All frontend API services should use:
 ```ts
 const API_URL =
   import.meta.env.VITE_API_URL ||
-  "http://localhost:5000/api";
+  "https://zone-backend.vercel.app/api";
 ```
 
 Do not leave old services pointing to `http://localhost:3000/api` unless the backend is intentionally moved there.
@@ -108,7 +108,7 @@ If frontend is running on `8081`, update `FRONTEND_URL` accordingly.
 Example frontend `.env`:
 
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://zone-backend.vercel.app/api
 ```
 
 ---
@@ -862,7 +862,7 @@ Both
 Frontend game service should use:
 
 ```txt
-http://localhost:5000/api
+https://zone-backend.vercel.app/api
 ```
 
 and:
@@ -1566,7 +1566,7 @@ All services should eventually use:
 ```ts
 const API_URL =
   import.meta.env.VITE_API_URL ||
-  "http://localhost:5000/api";
+  "https://zone-backend.vercel.app/api";
 ```
 
 Check:
@@ -2200,7 +2200,7 @@ npm run dev
 Verify backend:
 
 ```txt
-http://localhost:5000
+https://zone-backend.vercel.app
 ```
 
 Verify frontend:
