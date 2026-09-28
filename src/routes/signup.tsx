@@ -31,10 +31,10 @@ import {
 } from "@/context/auth-context";
 
 const title =
-  "Create Account | Cyber Xtream";
+  "Create Account | Battle Hub";
 
 const description =
-  "Create your Cyber Xtream customer account for memberships, loyalty points, booking history and gaming rewards.";
+  "Create your Battle Hub customer account for memberships, loyalty points, booking history and gaming rewards.";
 
 export const Route =
   createFileRoute(
@@ -203,7 +203,7 @@ function SignupPage() {
         });
 
       toast.success(
-        `Welcome to Cyber Xtream, ${created.name}`,
+        `Welcome to Battle Hub, ${created.name}`,
       );
 
       await navigate({
@@ -258,7 +258,7 @@ function SignupPage() {
           </div>
 
           <p className="mt-5 font-display text-[10px] tracking-[0.28em] text-primary uppercase">
-            Cyber Xtream Account
+            Battle Hub Account
           </p>
 
           <h1 className="mt-2 font-display text-3xl font-black">
@@ -420,7 +420,7 @@ function SignupPage() {
             <>
               <UserPlus className="mr-2 size-4" />
 
-              Create Cyber Xtream Account
+              Create Battle Hub Account
             </>
           )}
 
@@ -451,7 +451,7 @@ function SignupPage() {
             to="/"
             className="text-xs text-muted-foreground transition-colors hover:text-foreground"
           >
-            ← Back to Cyber Xtream
+            ← Back to Battle Hub
           </Link>
 
         </div>

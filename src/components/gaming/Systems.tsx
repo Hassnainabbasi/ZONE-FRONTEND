@@ -130,7 +130,7 @@ export function Systems() {
               </span>
             </>
           }
-          subtitle="Systems and live availability managed directly from the Cyber Xtream admin panel."
+          subtitle="Systems and live availability managed directly from the Battle Hub admin panel."
         />
 
         {loading ? (

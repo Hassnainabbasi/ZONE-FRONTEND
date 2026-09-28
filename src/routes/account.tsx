@@ -43,10 +43,10 @@ import {
 } from "@/services/membershipApi";
 
 const title =
-  "My Account | Cyber Xtream";
+  "My Account | Battle Hub";
 
 const description =
-  "View your Cyber Xtream membership, loyalty points, gaming hours and booking history.";
+  "View your Battle Hub membership, loyalty points, gaming hours and booking history.";
 
 export const Route =
   createFileRoute(
@@ -511,7 +511,7 @@ function AccountPage() {
             <p className="mt-2 text-sm leading-6 text-muted-foreground">
               {membershipStatus ===
               "Active"
-                ? "Your Cyber Xtream membership is active."
+                ? "Your Battle Hub membership is active."
                 : "Choose a membership plan to unlock rewards and benefits."}
             </p>
 

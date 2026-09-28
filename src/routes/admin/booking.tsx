@@ -88,7 +88,7 @@ import {
 */
 
 const title =
-  "Bookings & Reservations | Cyber Xtream Admin";
+  "Bookings & Reservations | Battle Hub Admin";
 
 const description =
   "Manage bookings, payments, partial payments, confirmations and customer communication.";
@@ -248,7 +248,7 @@ function openWhatsApp(
       : "Gaming PC";
 
   const message =
-`🎮 *Cyber Xtream BOOKING CONFIRMED*
+`🎮 *Battle Hub BOOKING CONFIRMED*
 
 Hi ${booking.customer.name},
 
@@ -270,7 +270,7 @@ Your booking has been confirmed successfully.
 Please arrive 10 minutes before your booking time.
 
 Thank you,
-*Cyber Xtream*`;
+*Battle Hub*`;
 
   const url =
     `https://wa.me/${phone}?text=${encodeURIComponent(
@@ -1929,7 +1929,7 @@ Enter refund amount:`,
     <body>
       <div class="receipt">
         <div class="header">
-          <h1>Cyber Xtream</h1>
+          <h1>Battle Hub</h1>
           <div class="sub">Booking Receipt</div>
         </div>
 
@@ -1992,7 +1992,7 @@ Enter refund amount:`,
         </div>
 
         <div class="footer">
-          Thank you for choosing Cyber Xtream &mdash; Game on!
+          Thank you for choosing Battle Hub &mdash; Game on!
         </div>
       </div>
     </body>

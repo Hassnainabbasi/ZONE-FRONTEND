@@ -70,7 +70,7 @@ import {
 } from "@/services/cafeApi";
 
 const title =
-  "Cafe & Food Menu Orders | Cyber Xtream Admin";
+  "Cafe & Food Menu Orders | Battle Hub Admin";
 
 const description =
   "Create cafe orders, manage menu items, monitor stock and track cafe sales.";

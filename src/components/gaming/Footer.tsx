@@ -79,7 +79,7 @@ export function Footer() {
         </Reveal>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row">
-          <p>© 2026 Cyber Xtream. All rights reserved.</p>
+          <p>© 2026 Battle Hub All rights reserved.</p>
           <p className="font-display tracking-[0.2em] uppercase">Game On</p>
         </div>
       </div>

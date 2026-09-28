@@ -141,29 +141,29 @@ export const Route =
         },
 
         {
-          title: "Cyber Xtream",
+          title: "Battle Hub",
         },
 
         {
           name: "description",
           content:
-            "Cyber Xtream gaming zone, esports lounge, live booking, tournaments and memberships.",
+            "Battle Hub gaming zone, esports lounge, live booking, tournaments and memberships.",
         },
 
         {
           name: "author",
-          content: "Cyber Xtream",
+          content: "Battle Hub",
         },
 
         {
           property: "og:title",
-          content: "Cyber Xtream",
+          content: "Battle Hub",
         },
 
         {
           property: "og:description",
           content:
-            "Cyber Xtream gaming zone, esports lounge, live booking, tournaments and memberships.",
+            "Battle Hub gaming zone, esports lounge, live booking, tournaments and memberships.",
         },
 
         {

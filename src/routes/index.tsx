@@ -12,9 +12,9 @@ import { Membership } from "@/components/gaming/Membership";
 import { Footer } from "@/components/gaming/Footer";
 import { MobileBookingBar } from "@/components/gaming/MobileBookingBar";
 
-const title = "Cyber Xtream | Next-Level Gaming Zone & Esports Lounge";
+const title = "Battle Hub | Next-Level Gaming Zone & Esports Lounge";
 const description =
-  "Book RTX 4090 battlestations, PS5 Pro lounges and racing simulators at Cyber Xtream. Live slot booking, tournaments, leaderboards and VIP memberships.";
+  "Book RTX 4090 battlestations, PS5 Pro lounges and racing simulators at Battle Hub. Live slot booking, tournaments, leaderboards and VIP memberships.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

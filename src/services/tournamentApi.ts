@@ -612,7 +612,7 @@ export const tournamentApi = {
         body:
           JSON.stringify({
             adminNote:
-              "Approved by Cyber Xtream admin",
+              "Approved by Battle Hub admin",
           }),
       },
     );
@@ -641,7 +641,7 @@ export const tournamentApi = {
         body:
           JSON.stringify({
             adminNote:
-              "Denied by Cyber Xtream admin",
+              "Denied by Battle Hub admin",
           }),
       },
     );

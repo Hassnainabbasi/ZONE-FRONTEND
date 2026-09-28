@@ -178,7 +178,7 @@ function AdminLoginPage() {
           </div>
 
           <p className="mt-5 font-display text-[10px] tracking-[0.28em] text-primary uppercase">
-            Cyber Xtream
+            Battle Hub
           </p>
 
           <h1 className="mt-2 font-display text-3xl font-black">
@@ -308,7 +308,7 @@ function AdminLoginPage() {
         </Button>
 
         <p className="mt-5 text-center text-[10px] text-muted-foreground">
-          Cyber Xtream secure administration portal
+          Battle Hub secure administration portal
         </p>
 
       </div>
