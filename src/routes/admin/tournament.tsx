@@ -90,7 +90,7 @@ import {
 ========================================================= */
 
 const title =
-  "Tournaments | Battle Hub Admin";
+  "Tournaments | Arcadium Admin";
 
 export const Route =
   createFileRoute(
@@ -220,7 +220,7 @@ function openPaymentMessage(
 
     "",
 
-    `Your team "${registration.teamName}" registration for ${tournament?.name || "Battle Hub Tournament"} has been received.`,
+    `Your team "${registration.teamName}" registration for ${tournament?.name || "Arcadium Tournament"} has been received.`,
 
     "",
 
@@ -241,7 +241,7 @@ function openPaymentMessage(
 
     "Regards,",
 
-    "Battle Hub",
+    "Arcadium",
   ].join(
     "\n",
   );
@@ -1424,7 +1424,7 @@ function TournamentsPage() {
                   </DialogTitle>
 
                   <DialogDescription>
-                    Create a new public Battle Hub tournament.
+                    Create a new public Arcadium tournament.
                   </DialogDescription>
 
                 </DialogHeader>

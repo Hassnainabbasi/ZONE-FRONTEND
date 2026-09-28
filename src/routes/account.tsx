@@ -43,10 +43,10 @@ import {
 } from "@/services/membershipApi";
 
 const title =
-  "My Account | Battle Hub";
+  "My Account | Arcadium";
 
 const description =
-  "View your Battle Hub membership, loyalty points, gaming hours and booking history.";
+  "View your Arcadium membership, loyalty points, gaming hours and booking history.";
 
 export const Route =
   createFileRoute(
@@ -511,7 +511,7 @@ function AccountPage() {
             <p className="mt-2 text-sm leading-6 text-muted-foreground">
               {membershipStatus ===
               "Active"
-                ? "Your Battle Hub membership is active."
+                ? "Your Arcadium membership is active."
                 : "Choose a membership plan to unlock rewards and benefits."}
             </p>
 

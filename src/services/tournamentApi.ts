@@ -608,11 +608,10 @@ export const tournamentApi = {
       {
         method:
           "PATCH",
-
         body:
           JSON.stringify({
             adminNote:
-              "Approved by Battle Hub admin",
+              "Approved by Arcadium admin",
           }),
       },
     );
@@ -641,7 +640,7 @@ export const tournamentApi = {
         body:
           JSON.stringify({
             adminNote:
-              "Denied by Battle Hub admin",
+              "Denied by Arcadium admin",
           }),
       },
     );

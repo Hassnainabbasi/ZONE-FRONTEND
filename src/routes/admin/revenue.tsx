@@ -41,7 +41,7 @@ import {
 ========================================================= */
 
 const title =
-  "Payments & Revenue Analytics | Battle Hub Admin";
+  "Payments & Revenue Analytics | Arcadium Admin";
 
 export const Route =
   createFileRoute(
@@ -275,7 +275,7 @@ function RevenuePage() {
         <PageHeader
           eyebrow="Finance"
           title="Payments & Revenue Analytics"
-          subtitle="Track actual payments received across Battle Hub."
+          subtitle="Track actual payments received across Arcadium."
         />
 
         <div className="glass-static rounded-2xl p-12 text-center text-sm text-muted-foreground">

@@ -82,7 +82,7 @@ import {
 ========================================================= */
 
 const title =
-  "Memberships | Battle Hub Admin";
+  "Memberships | Arcadium Admin";
 
 const description =
   "Manage membership requests, monthly plans, discounts, points and member rewards.";
@@ -230,7 +230,7 @@ function openPaymentWhatsApp(
 
     "",
 
-    `Your Battle Hub ${request.tierName} Membership request has been received.`,
+    `Your Arcadium ${request.tierName} Membership request has been received.`,
 
     "",
 
@@ -251,13 +251,13 @@ function openPaymentWhatsApp(
 
     "",
 
-    "After payment verification, your membership will be activated by Battle Hub admin.",
+    "After payment verification, your membership will be activated by Arcadium admin.",
 
     "",
 
     "Regards,",
 
-    "Battle Hub",
+    "Arcadium",
   ].join("\n");
 
   window.open(
@@ -806,7 +806,7 @@ function MembersPage() {
         await membershipApi.approveRequest(
           request._id,
 
-          "Membership approved by Battle Hub admin",
+          "Membership approved by Arcadium admin",
         );
 
       toast.success(
@@ -850,7 +850,7 @@ function MembersPage() {
         await membershipApi.denyRequest(
           request._id,
 
-          "Membership request denied by Battle Hub admin",
+          "Membership request denied by Arcadium admin",
         );
 
       toast.success(
@@ -1165,7 +1165,7 @@ function MembersPage() {
                   </DialogTitle>
 
                   <DialogDescription>
-                    Add a manual or walk-in Battle Hub member.
+                    Add a manual or walk-in Arcadium member.
                   </DialogDescription>
 
                 </DialogHeader>

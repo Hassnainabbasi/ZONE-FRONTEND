@@ -348,7 +348,7 @@ export function Membership() {
               </span>
             </>
           }
-          subtitle="Submit a membership request. Battle Hub will confirm payment and activate your selected plan."
+          subtitle="Submit a membership request. Arcadium will confirm payment and activate your selected plan."
         />
 
         {/* STATUS */}

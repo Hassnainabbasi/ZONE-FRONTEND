@@ -400,7 +400,7 @@ export function Tournaments() {
               </span>
             </>
           }
-          subtitle="Live Battle Hub tournaments, registrations, prize pools and arena rankings."
+          subtitle="Live Arcadium tournaments, registrations, prize pools and arena rankings."
         />
 
         {loading ? (

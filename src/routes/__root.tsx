@@ -141,29 +141,29 @@ export const Route =
         },
 
         {
-          title: "Battle Hub",
+          title: "Arcadium",
         },
 
         {
           name: "description",
           content:
-            "Battle Hub gaming zone, esports lounge, live booking, tournaments and memberships.",
+            "Arcadium gaming zone, esports lounge, live booking, tournaments and memberships.",
         },
 
         {
           name: "author",
-          content: "Battle Hub",
+          content: "Arcadium",
         },
 
         {
           property: "og:title",
-          content: "Battle Hub",
+          content: "Arcadium",
         },
 
         {
           property: "og:description",
           content:
-            "Battle Hub gaming zone, esports lounge, live booking, tournaments and memberships.",
+            "Arcadium gaming zone, esports lounge, live booking, tournaments and memberships.",
         },
 
         {

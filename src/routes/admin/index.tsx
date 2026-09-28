@@ -69,7 +69,7 @@ import {
 } from "@/services/systemApi";
 
 const title =
-  "Systems & Live Monitor | Battle Hub Admin";
+  "Systems & Live Monitor | Arcadium Admin";
 
 export const Route =
   createFileRoute(

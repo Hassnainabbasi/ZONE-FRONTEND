@@ -35,10 +35,10 @@ import {
 } from "@/context/auth-context";
 
 const title =
-  "Login | Battle Hub";
+  "Login | Arcadium";
 
 const description =
-  "Login to your Battle Hub account to access membership, loyalty points, gaming hours and booking history.";
+  "Login to your Arcadium account to access membership, loyalty points, gaming hours and booking history.";
 
 export const Route =
   createFileRoute(
@@ -196,7 +196,7 @@ function LoginPage() {
           </div>
 
           <p className="mt-5 font-display text-[10px] tracking-[0.28em] text-primary uppercase">
-            Battle Hub Account
+            Arcadium Account
           </p>
 
           <h1 className="mt-2 font-display text-3xl font-black">
@@ -305,7 +305,7 @@ function LoginPage() {
 
         <div className="mt-7 border-t border-border pt-6 text-center">
           <p className="text-sm text-muted-foreground">
-            New to Battle Hub?
+            New to Arcadium?
           </p>
 
           <Link
@@ -321,7 +321,7 @@ function LoginPage() {
             to="/"
             className="text-xs text-muted-foreground transition-colors hover:text-foreground"
           >
-            ← Back to Battle Hub
+            ← Back to Arcadium
           </Link>
         </div>
 
