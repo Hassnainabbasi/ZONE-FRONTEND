@@ -184,9 +184,9 @@ function LoginPage() {
             </span>
 
             <span className="font-display text-sm font-bold tracking-[0.2em] uppercase">
-              Cyber
+              Arca
               <span className="text-neon-cyan">
-              Xtream
+              dium
               </span>
             </span>
           </Link>

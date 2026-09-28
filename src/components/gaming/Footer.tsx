@@ -13,7 +13,7 @@ export function Footer() {
                 <Gamepad2 className="size-5" />
               </span>
               <span className="font-display text-sm font-bold tracking-[0.2em] uppercase">
-                Cyber<span className="text-neon-cyan">Xtream</span>
+                Arca<span className="text-neon-cyan">dium</span>
               </span>
             </div>
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">
