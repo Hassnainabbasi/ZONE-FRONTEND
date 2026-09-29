@@ -487,7 +487,7 @@ export function AdminShell({
 
         {/* SIDEBAR USER */}
 
-        {!collapsed && (
+        {/* {!collapsed && (
           <div className="mx-3 mb-2 rounded-xl border border-border bg-background/20 p-3">
 
             <div className="flex items-center gap-3">
@@ -523,7 +523,7 @@ export function AdminShell({
             </div>
 
           </div>
-        )}
+        )} */}
 
         {/* COLLAPSE */}
 
