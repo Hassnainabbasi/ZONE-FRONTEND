@@ -500,7 +500,7 @@ export function AdminShell({
 
               </span>
 
-              {/* <div className="min-w-0">
+              <div className="min-w-0">
 
                 <p className="truncate text-xs font-semibold">
                   {
@@ -518,7 +518,7 @@ export function AdminShell({
 
                 </div>
 
-              </div> */}
+              </div>
 
             </div>
 
